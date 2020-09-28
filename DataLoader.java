@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class DataLoader {
 	
-	HashTableMap<String, Student> map;
+	private HashTableMap<String, Student> map;
 	private File file;
 	
 	public DataLoader(File file, HashTableMap<String, Student> map)  {

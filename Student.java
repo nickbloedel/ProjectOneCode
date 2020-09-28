@@ -1,7 +1,7 @@
 public class Student {
-  private long ID;
-  private String major;
-  private int gradYear;
+  public long ID;
+  public String major;
+  public int gradYear;
 
   public Student(long iD2, String major, int gradYear) {
        this.ID = iD2;
