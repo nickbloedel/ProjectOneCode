@@ -1,15 +1,15 @@
 public class Student {
-  public long ID;
+  public Long ID;
   public String major;
-  public int gradYear;
+  public Integer gradYear;
 
-  public Student(long iD2, String major, int gradYear) {
+  public Student(Long iD2, String major, Integer gradYear) {
        this.ID = iD2;
        this.major = major;
        this.gradYear = gradYear;
   }
 
-  public long getID() {
+  public Long getID() {
     return ID;
   }
 
@@ -17,7 +17,7 @@ public class Student {
     return major;
   }
 
-  public int getGradYear() {
+  public Integer getGradYear() {
     return gradYear;
   }
 
